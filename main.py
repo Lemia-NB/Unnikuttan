@@ -23,7 +23,7 @@ async def on_message(message):
     await message.channel.send('Integration success')
 
   if message.content.startswith('$hello'):
-    await message.channel.send('Hello!')
+    await message.channel.send('Helloo!')
 
   
 #to establish connection with client using bot token
